@@ -60,7 +60,7 @@ public class BuscarVooPrimeiraClasseComSucesso {
 //        navegador.findElement(By.partialLinkText("Flights")).click();
 
         assertEquals("https://www.phptravels.net/m-flights",navegador.getCurrentUrl());
-//        navegador.close();
+//        navegador.quit();
     }
 
 }
